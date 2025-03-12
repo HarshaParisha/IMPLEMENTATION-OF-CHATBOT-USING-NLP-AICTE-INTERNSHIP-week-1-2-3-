@@ -1,0 +1,2 @@
+# IMPLEMENTATION-OF-CHATBOT-USING-NLP-AICTE-INTERNSHIP-week-1-2-3-
+This chatbot, built using NLP and machine learning, processes user inputs, predicts intents using Logistic Regression, and responds based on a structured intents.json dataset. Integrated with Streamlit, it provides an interactive web interface with features like conversation logging and a user-friendly design for seamless interaction.
