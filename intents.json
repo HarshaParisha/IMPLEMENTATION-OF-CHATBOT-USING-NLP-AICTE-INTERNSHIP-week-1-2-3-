@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hi", "hello", "hey", "whats up", "how are you"],
+            "responses": ["Hi there!", "Hello!", "Hey!", "Not much, what about you?", "I’m doing great, thanks for asking!"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "see you", "goodbye", "take care", "later"],
+            "responses": ["Goodbye!", "Take care!", "See you later!", "Have a great day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "appreciate it", "many thanks"],
+            "responses": ["You’re welcome!", "Happy to help!", "No problem!", "Anytime!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["help me", "can you help", "i need assistance", "what can you do", "help"],
+            "responses": ["Of course! What do you need help with?", "Sure, I’m here to assist you!", "Happy to help! Let me know what you need."]
+        },
+        {
+            "tag": "music",
+            "patterns": ["which music you like", "what music do you enjoy", "music preferences", "your favorite songs"],
+            "responses": ["I enjoy a variety of music genres! What about you?", "Music is universal! I like everything from classical to pop.", "What’s your favorite type of music?"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what’s the weather", "current weather", "is it raining", "temperature", "weather today"],
+            "responses": ["Let me check the weather for you.", "It looks sunny today!", "There might be rain, stay prepared!", "It’s a bit chilly, dress warmly!"]
+        },
+        {
+            "tag": "funny",
+            "patterns": ["tell me a joke", "make me laugh", "say something funny", "joke"],
+            "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "Why was the math book sad? It had too many problems.", "I would tell you a joke about a roof, but it’s over your head!"]
+        },
+        {
+            "tag": "sad",
+            "patterns": ["i’m sad", "feeling down", "not good", "i feel bad", "i’m upset"],
+            "responses": ["I’m here for you.", "Want to talk about it?", "I hope things get better soon.", "I’m sorry to hear that."]
+        }
+    ]
+}
