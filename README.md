@@ -1,63 +1,7 @@
 # IMPLEMENTATION-OF-CHATBOT-USING-NLP-AICTE-INTERNSHIP-week-1-2-3-
 
-IN WEEK 1 : Chatbot using NLP: Week 1 Implementation
-Overview
-This project involves the creation of an interactive chatbot using Natural Language Processing (NLP) techniques. In the first week of development, foundational work was laid for integrating essential libraries, setting up the project environment, and creating the basis for processing intents and responses.
-The chatbot is designed to handle text-based interactions effectively by understanding user intents and responding accordingly. It uses TF-IDF Vectorization and Logistic Regression for intent classification and builds on the NLTK (Natural Language Toolkit) for preprocessing text inputs.
-Current Features (Week 1):
-Environment Setup: Installed and configured the required Python libraries (nltk, scikit-learn, and streamlit).
+Week 1: This week focused on laying the foundation for a chatbot using NLP. Essential Python libraries like nltk, scikit-learn, and streamlit were installed. Text preprocessing with nltk (including tokenization) and data setup for managing intents were completed. TF-IDF Vectorization and Logistic Regression were introduced for intent classification. Streamlit was selected to build an interactive user interface.
 
-Text Preprocessing:
-Integrated nltk for tokenization.
-Downloaded and utilized essential NLTK data resources, including punkt.
+Week 2: The chatbot was enhanced with intent classification and response generation capabilities. A dataset of intents with patterns and responses was created. TF-IDF Vectorizer was used for feature extraction, and Logistic Regression was implemented as the classifier. Chatbot logic was built to handle user inputs, predict intents, and provide appropriate responses. Testing was performed successfully on user inputs like "which music you like?" to ensure accuracy.
 
-Framework and Modules:
-Built the foundation for managing user intents using a defined dataset of intents.
-Prepped the chatbot for classification using TF-IDF for feature extraction.
-Leveraged Logistic Regression for classifying intents.
-
-Interactive UI Framework:
-Selected Streamlit for building a user-friendly web-based interface.
-Technology Stack
-Programming Language: Python 3.x
-
-Libraries:
-nltk: For Natural Language Processing tasks such as tokenization.
-scikit-learn: For implementing machine learning models like Logistic Regression.
-streamlit: To build an intuitive and interactive user interface for the chatbot.
-
-
-IN WEEK 2: Chatbot using NLP
-Overview:
-This project involves the development of a chatbot using Natural Language Processing (NLP) and Machine Learning techniques. By the second week of implementation, we have successfully added functionality to classify user inputs and respond accordingly. The chatbot is built to process user intents, classify them using a machine learning model, and provide appropriate responses.
-This milestone introduces TF-IDF Vectorization for feature extraction and Logistic Regression for intent classification, ensuring the chatbot intelligently maps user inputs to predefined intents.
-
-Current Features (Week 2):
-Dataset of Intents:
-Defined a set of user intents with associated patterns and responses in the form of JSON-like structures.
-Examples include categories like greetings, emotions, and topic-specific questions.
-
-Text Vectorization:
-Used TfidfVectorizer from sklearn to convert text patterns into numerical features for machine learning.
-
-Machine Learning Model:
-Implemented Logistic Regression for predicting the intent of the user's input.
-Trained the model on the dataset of intents.
-
-Chatbot Logic:
-Built the chatbot function to:
-Accept user inputs.
-Predict the corresponding intent tag using the trained model.
-Retrieve a relevant response from the intents dataset.
-
-Testing:
-Successfully tested the chatbot on user input ("which music you like?") and validated its ability to classify and respond accurately.
-
-Libraries Used:
-nltk: For tokenization and preprocessing text.
-scikit-learn: For feature extraction and machine learning (TF-IDF and Logistic Regression).
-random: To randomly select a response from the matched intent.
-os and ssl: For handling secure data paths and configurations.
-
-
-
+Week 3: This week focused on practical implementation. The project folder was opened in VS Code, and two key files were created: intents.json for defining intents and responses, and chatbot.py for coding the chatbot logic. The intents were written in intents.json, and the chatbot functionality was coded in chatbot.py. The project was then launched successfully using Streamlit, demonstrating a functioning chatbot.
